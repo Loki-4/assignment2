@@ -1,7 +1,15 @@
 a=int(input())
 b=int(input())
-print("addition: ",a+b)
-print("subtraction: ",a-b)
-print("multiplication: ",a*b)
-print("division: ",a/b)
-print("modulo: ",a%b)
+c=input("enter operator: ")
+if c=="+":
+  print("addition: ",a+b)
+elif  c=="-":
+ print("subtraction: ",a-b)
+elif  c=="*":
+ print("multiplication: ",a*b)
+elif c=="/":
+ print("division: ",a/b)
+elif c=="%":
+ print("modulo: ",a%b)
+else:
+ print("enter valid")
